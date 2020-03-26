@@ -1,0 +1,30 @@
+{
+  "name": "isaquesb/isb-account",
+  "description": "ISB Account Module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Isaque de Souza",
+      "role": "developer",
+      "email": "isaquesb@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "isaquesb/isb-language": "~0.1"
+  },
+  "autoload" : {
+    "psr-4": {
+      "Isb\\Language\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Isb\\Account\\ServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability" : "dev",
+  "prefer-stable" : true
+}
