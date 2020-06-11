@@ -11,7 +11,8 @@
   ],
   "require": {
     "php": ">=7.0",
-    "isaquesb/isb-language": "~0.1"
+    "isaquesb/isb-language": "~0.1",
+    "isaquesb/isb-db-common": "~0.1"
   },
   "autoload" : {
     "psr-4": {
